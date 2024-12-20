@@ -74,8 +74,8 @@ export default function Home() {
               animate={{ scale: 1, opacity: 1 }}
               className="max-w-4xl mx-auto"
             >
-              <Card className="p-6 bg-white/95 backdrop-blur-lg">
-                <h2 className="text-3xl font-bold mb-6 text-center">Your Year in Review</h2>
+              <Card className="p-3 md:p-6 bg-white/95 backdrop-blur-lg">
+                <h2 className="text-xl font-bold mb-6 text-center">Your Year in Review</h2>
                 <YearlyChart data={responses} />
                 <div className="mt-6 flex justify-center">
                   <Button onClick={captureScreenshot} className="bg-green-700 hover:bg-green-800">

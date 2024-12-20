@@ -38,7 +38,7 @@ export function YearlyChart({
   }, [data]);
 
   return (
-    <div className="w-full h-[400px]">
+    <div className="w-full h-[150px] md:h-[400px]">
       <ResponsiveContainer>
         <LineChart data={chartData}>
           <CartesianGrid strokeDasharray="3 3" />
