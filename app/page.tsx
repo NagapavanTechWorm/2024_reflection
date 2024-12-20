@@ -15,6 +15,7 @@ import {questionss} from '@/lib/questions';
 import { useRandomQuestions } from '@/hooks/use-random-questions';
 import { Footer } from '@/components/Footer';
 import NPLoading from '@/components/Loading';
+import html2canvas from 'html2canvas';
 
 export default function Home() {
   const [currentStep, setCurrentStep] = useState(0);
@@ -27,6 +28,17 @@ export default function Home() {
 
   }
 
+  const captureScreenshot = async () => {
+    const element = document.getElementById('results');
+    if (element) {
+      const canvas = await html2canvas(element);
+      const link = document.createElement('a');
+      link.download = 'yearly-reflection.png';
+      link.href = canvas.toDataURL();
+      link.click();
+    }
+  };
+
 
 
   const handleResponse = (month: number, score: number) => {
@@ -35,7 +47,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-red-900 via-red-800 to-green-900 md:flex md:flex-col md:justify-between">
+    <div  id="results" className="min-h-screen bg-gradient-to-b from-red-900 via-red-800 to-green-900 md:flex md:flex-col md:justify-between">
       <Snowfall />
       <main className="container mx-auto px-4 py-8 relative">
         <Header />
@@ -66,7 +78,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold mb-6 text-center">Your Year in Review</h2>
                 <YearlyChart data={responses} />
                 <div className="mt-6 flex justify-center">
-                  <Button className="bg-green-700 hover:bg-green-800">
+                  <Button onClick={captureScreenshot} className="bg-green-700 hover:bg-green-800">
                     <Share2 className="mr-2" /> Share Your Reflection
                   </Button>
                 </div>
