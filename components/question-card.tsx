@@ -95,12 +95,12 @@ export function QuestionCard({
             <p className="text-center text-gray-600">
               How would you rate your experience in {selectedMonth}?
             </p>
-            <div className="flex justify-center flex-col md:flex-row gap-4">
+            <div className="flex justify-center flex-col gap-4">
               {question.emoji_options.map((emoji) => (
                 <Button
                   key={emoji.value}
                   variant="outline"
-                  className="text-3xl p-6 hover:scale-110 transition-transform"
+                  className="text-3xl p-6 hover:scale-90 transition-transform"
                   onClick={() => handleEmojiSelect(emoji.value)}
                 >
                   <span className="mr-2">{emoji.label}</span>

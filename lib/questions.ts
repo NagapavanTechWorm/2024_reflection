@@ -54,451 +54,443 @@ export const questions = [
 
 export const questionss = [
   {
-    "question": "Did you form any meaningful new relationships this year? 🤝",
+    "question": "Which month did you feel most proud of your personal achievements? 🌟",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, strong connections" },
-      { "label": "😐", "value": 0, "description": "Some connections" },
-      { "label": "😢", "value": -1, "description": "No new connections" }
+      { "label": "😊", "value": 1, "description": "Accomplished something significant" },
+      { "label": "😐", "value": 0, "description": "Made some progress" },
+      { "label": "😢", "value": -1, "description": "Struggled to achieve goals" }
     ]
   },
   {
-    "question": "How was your mental health this year? 🧠",
+    "question": "In which month did you have your most memorable social connection? 🤝",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Strong and positive" },
-      { "label": "😐", "value": 0, "description": "Neutral or mixed" },
-      { "label": "😢", "value": -1, "description": "Challenging year" }
+      { "label": "😊", "value": 1, "description": "Deep meaningful connections" },
+      { "label": "😐", "value": 0, "description": "Regular social interactions" },
+      { "label": "😢", "value": -1, "description": "Felt disconnected" }
     ]
   },
   {
-    "question": "Did you manage your time effectively this year? ⏳",
+    "question": "Which month brought your biggest learning experience? 📚",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Very well" },
-      { "label": "😐", "value": 0, "description": "Somewhat" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Learned valuable lessons" },
+      { "label": "😐", "value": 0, "description": "Some learning moments" },
+      { "label": "😢", "value": -1, "description": "Missed learning opportunities" }
     ]
   },
   {
-    "question": "Did you make any significant financial progress this year? 💰",
+    "question": "In which month did you face your biggest challenge? 💪",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, big steps" },
-      { "label": "😐", "value": 0, "description": "Some progress" },
-      { "label": "😢", "value": -1, "description": "No progress" }
+      { "label": "😊", "value": 1, "description": "Overcame the challenge" },
+      { "label": "😐", "value": 0, "description": "Managed to cope" },
+      { "label": "😢", "value": -1, "description": "Struggled significantly" }
     ]
   },
   {
-    "question": "Did you achieve any health-related goals this year? 🏋️",
+    "question": "Which month contained your most significant family moment? 👨‍👩‍👧‍👦",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, completely" },
-      { "label": "😐", "value": 0, "description": "Partially" },
-      { "label": "😢", "value": -1, "description": "No progress" }
+      { "label": "😊", "value": 1, "description": "Wonderful family time" },
+      { "label": "😐", "value": 0, "description": "Regular family interaction" },
+      { "label": "😢", "value": -1, "description": "Difficult family situation" }
     ]
   },
   {
-    "question": "Did you step out of your comfort zone this year? 🚀",
+    "question": "In which month did you make your most important financial decision? 💰",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, often" },
-      { "label": "😐", "value": 0, "description": "Occasionally" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Made wise financial choices" },
+      { "label": "😐", "value": 0, "description": "Managed finances okay" },
+      { "label": "😢", "value": -1, "description": "Had financial difficulties" }
     ]
   },
   {
-    "question": "Did you contribute to any charitable causes this year? ❤️",
+    "question": "Which month had your most impactful work experience? 💼",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, significantly" },
-      { "label": "😐", "value": 0, "description": "Somewhat" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Major career breakthrough" },
+      { "label": "😐", "value": 0, "description": "Steady work progress" },
+      { "label": "😢", "value": -1, "description": "Work challenges" }
     ]
   },
   {
-    "question": "Did you engage in any creative hobbies this year? 🎨",
+    "question": "In which month did you feel most creative? 🎨",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, frequently" },
-      { "label": "😐", "value": 0, "description": "Occasionally" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Peak creative expression" },
+      { "label": "😐", "value": 0, "description": "Some creative moments" },
+      { "label": "😢", "value": -1, "description": "Creative block" }
     ]
   },
   {
-    "question": "How was your physical health this year? 🩺",
+    "question": "Which month marked your most meaningful travel experience? ✈️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Very good" },
-      { "label": "😐", "value": 0, "description": "Moderate" },
-      { "label": "😢", "value": -1, "description": "Poor" }
+      { "label": "😊", "value": 1, "description": "Amazing journey" },
+      { "label": "😐", "value": 0, "description": "Pleasant trip" },
+      { "label": "😢", "value": -1, "description": "Challenging travel" }
     ]
   },
   {
-    "question": "Did you spend more time outdoors this year? 🌳",
+    "question": "In which month did you feel most balanced in life? ⚖️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, a lot" },
-      { "label": "😐", "value": 0, "description": "Sometimes" },
-      { "label": "😢", "value": -1, "description": "Not much" }
+      { "label": "😊", "value": 1, "description": "Perfect life balance" },
+      { "label": "😐", "value": 0, "description": "Manageable balance" },
+      { "label": "😢", "value": -1, "description": "Life felt chaotic" }
     ]
   },
   {
-    "question": "Did you read any impactful books this year? 📖",
+    "question": "Which month brought the most unexpected surprise? 🎁",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, many" },
-      { "label": "😐", "value": 0, "description": "A few" },
-      { "label": "😢", "value": -1, "description": "None" }
+      { "label": "😊", "value": 1, "description": "Wonderful surprise" },
+      { "label": "😐", "value": 0, "description": "Neutral surprise" },
+      { "label": "😢", "value": -1, "description": "Unwelcome surprise" }
     ]
   },
   {
-    "question": "Did you practice mindfulness or meditation this year? 🧘",
+    "question": "In which month did you make your bravest decision? 🦁",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, regularly" },
-      { "label": "😐", "value": 0, "description": "Sometimes" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Took courageous action" },
+      { "label": "😐", "value": 0, "description": "Stepped slightly out of comfort zone" },
+      { "label": "😢", "value": -1, "description": "Avoided taking risks" }
     ]
   },
   {
-    "question": "Did you reconnect with any old friends this year? 📞",
+    "question": "Which month had your biggest health breakthrough? 💪",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, deeply" },
-      { "label": "😐", "value": 0, "description": "Somewhat" },
-      { "label": "😢", "value": -1, "description": "No reconnections" }
+      { "label": "😊", "value": 1, "description": "Major health improvement" },
+      { "label": "😐", "value": 0, "description": "Maintained health" },
+      { "label": "😢", "value": -1, "description": "Health setback" }
     ]
   },
   {
-    "question": "Did you achieve work-life balance this year? ⚖️",
+    "question": "In which month did you feel most grateful? 🙏",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, perfectly" },
-      { "label": "😐", "value": 0, "description": "Sometimes" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Overwhelming gratitude" },
+      { "label": "😐", "value": 0, "description": "General appreciation" },
+      { "label": "😢", "value": -1, "description": "Struggled to find gratitude" }
     ]
   },
   {
-    "question": "Did you try any new cuisines this year? 🍣",
+    "question": "Which month contained your proudest leadership moment? 👑",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, many" },
-      { "label": "😐", "value": 0, "description": "A few" },
-      { "label": "😢", "value": -1, "description": "None" }
+      { "label": "😊", "value": 1, "description": "Led successfully" },
+      { "label": "😐", "value": 0, "description": "Managed okay" },
+      { "label": "😢", "value": -1, "description": "Leadership challenges" }
     ]
   },
   {
-    "question": "Did you maintain healthy habits this year? 🍎",
+    "question": "In which month did you strengthen your most valuable friendship? 🫂",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, consistently" },
-      { "label": "😐", "value": 0, "description": "Sometimes" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Deepened important bonds" },
+      { "label": "😐", "value": 0, "description": "Maintained friendships" },
+      { "label": "😢", "value": -1, "description": "Friendship challenges" }
     ]
   },
   {
-    "question": "Did you celebrate any special occasions this year? 🎉",
+    "question": "Which month brought your most significant personal transformation? 🦋",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, joyfully" },
-      { "label": "😐", "value": 0, "description": "Somewhat" },
-      { "label": "😢", "value": -1, "description": "No celebrations" }
+      { "label": "😊", "value": 1, "description": "Major positive change" },
+      { "label": "😐", "value": 0, "description": "Subtle growth" },
+      { "label": "😢", "value": -1, "description": "Resistance to change" }
     ]
   },
   {
-    "question": "Did you take steps toward your long-term goals this year? 🛤️",
+    "question": "In which month did you receive the most impactful feedback? 📝",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Significant steps" },
-      { "label": "😐", "value": 0, "description": "Some progress" },
-      { "label": "😢", "value": -1, "description": "No progress" }
+      { "label": "😊", "value": 1, "description": "Valuable constructive feedback" },
+      { "label": "😐", "value": 0, "description": "Neutral feedback" },
+      { "label": "😢", "value": -1, "description": "Difficult feedback" }
     ]
   },
   {
-    "question": "Did you explore any new hobbies this year? 🎸",
+    "question": "Which month had your most meaningful celebration? 🎉",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, exciting ones" },
-      { "label": "😐", "value": 0, "description": "A little bit" },
-      { "label": "😢", "value": -1, "description": "Not at all" }
+      { "label": "😊", "value": 1, "description": "Joyous celebration" },
+      { "label": "😐", "value": 0, "description": "Pleasant occasion" },
+      { "label": "😢", "value": -1, "description": "Missed celebration" }
     ]
   },
   {
-    "question": "Did you go on a trip this year? 🌍",
+    "question": "In which month did you have your biggest 'aha' moment? 💡",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, it was amazing!" },
-      { "label": "😐", "value": 0, "description": "Yes, it was okay" },
-      { "label": "😢", "value": -1, "description": "No, I didn't travel" }
+      { "label": "😊", "value": 1, "description": "Life-changing realization" },
+      { "label": "😐", "value": 0, "description": "Useful insight" },
+      { "label": "😢", "value": -1, "description": "Missed understanding" }
     ]
   },
   {
-    "question": "Did you try new hobbies or activities this year? 🎨",
+    "question": "Which month tested your resilience the most? 🏔️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I tried many!" },
-      { "label": "😐", "value": 0, "description": "I tried a few" },
-      { "label": "😢", "value": -1, "description": "No, I didn’t try any" }
+      { "label": "😊", "value": 1, "description": "Overcame major challenge" },
+      { "label": "😐", "value": 0, "description": "Handled difficulties" },
+      { "label": "😢", "value": -1, "description": "Felt overwhelmed" }
     ]
   },
   {
-    "question": "Did you achieve your fitness goals this year? 💪",
+    "question": "In which month did you feel most connected to your purpose? ⭐",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I crushed them!" },
-      { "label": "😐", "value": 0, "description": "I made some progress" },
-      { "label": "😢", "value": -1, "description": "No, I didn't reach them" }
+      { "label": "😊", "value": 1, "description": "Strong sense of purpose" },
+      { "label": "😐", "value": 0, "description": "Some direction" },
+      { "label": "😢", "value": -1, "description": "Lost sense of purpose" }
     ]
   },
   {
-    "question": "Did you spend enough time with family and friends? 🤗",
+    "question": "Which month brought your most meaningful learning opportunity? 📚",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, lots of quality time" },
-      { "label": "😐", "value": 0, "description": "I saw them occasionally" },
-      { "label": "😢", "value": -1, "description": "I didn’t spend much time with them" }
+      { "label": "😊", "value": 1, "description": "Significant learning" },
+      { "label": "😐", "value": 0, "description": "Some learning" },
+      { "label": "😢", "value": -1, "description": "Missed learning" }
     ]
   },
   {
-    "question": "Did you focus on your mental well-being this year? 🧠",
+    "question": "In which month did you make your boldest move? 🎯",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I prioritized it" },
-      { "label": "😐", "value": 0, "description": "I tried but could do better" },
-      { "label": "😢", "value": -1, "description": "No, I neglected it" }
+      { "label": "😊", "value": 1, "description": "Took major initiative" },
+      { "label": "😐", "value": 0, "description": "Made careful moves" },
+      { "label": "😢", "value": -1, "description": "Stayed too safe" }
     ]
   },
   {
-    "question": "Did you achieve any career milestones this year? 📈",
+    "question": "Which month had your most significant teamwork experience? 🤝",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, big achievements!" },
-      { "label": "😐", "value": 0, "description": "I made some progress" },
-      { "label": "😢", "value": -1, "description": "No major milestones" }
+      { "label": "😊", "value": 1, "description": "Great collaboration" },
+      { "label": "😐", "value": 0, "description": "Decent teamwork" },
+      { "label": "😢", "value": -1, "description": "Team struggles" }
     ]
   },
   {
-    "question": "Did you manage to save money this year? 💸",
+    "question": "In which month did you feel most innovative? 🚀",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I saved well" },
-      { "label": "😐", "value": 0, "description": "I saved a bit" },
-      { "label": "😢", "value": -1, "description": "No, I didn't save" }
+      { "label": "😊", "value": 1, "description": "Breakthrough ideas" },
+      { "label": "😐", "value": 0, "description": "Some new ideas" },
+      { "label": "😢", "value": -1, "description": "Creative block" }
     ]
   },
   {
-    "question": "Did you focus on your personal development? 🌱",
+    "question": "Which month brought your most meaningful recognition? 🏆",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I worked hard on it" },
-      { "label": "😐", "value": 0, "description": "I worked on it occasionally" },
-      { "label": "😢", "value": -1, "description": "No, I neglected it" }
+      { "label": "😊", "value": 1, "description": "Important achievement" },
+      { "label": "😐", "value": 0, "description": "Small wins" },
+      { "label": "😢", "value": -1, "description": "Lack of recognition" }
     ]
   },
   {
-    "question": "Did you get more sleep this year? 😴",
+    "question": "In which month did you feel most authentic? 🌟",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I slept well" },
-      { "label": "😐", "value": 0, "description": "I got some good sleep" },
-      { "label": "😢", "value": -1, "description": "No, I didn't get enough sleep" }
+      { "label": "😊", "value": 1, "description": "Truly myself" },
+      { "label": "😐", "value": 0, "description": "Somewhat authentic" },
+      { "label": "😢", "value": -1, "description": "Not true to myself" }
     ]
   },
   {
-    "question": "Did you develop any new skills this year? 🎓",
+    "question": "Which month had your most impactful mentoring experience? 🌱",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, many new skills" },
-      { "label": "😐", "value": 0, "description": "I learned a few" },
-      { "label": "😢", "value": -1, "description": "No, I didn't learn anything new" }
+      { "label": "😊", "value": 1, "description": "Valuable guidance" },
+      { "label": "😐", "value": 0, "description": "Some mentoring" },
+      { "label": "😢", "value": -1, "description": "Lacked guidance" }
     ]
   },
   {
-    "question": "Did you make any major lifestyle changes? 🔄",
+    "question": "In which month did you make your wisest decision? 🧠",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, big changes!" },
-      { "label": "😐", "value": 0, "description": "I made small changes" },
-      { "label": "😢", "value": -1, "description": "No, I didn’t change anything" }
+      { "label": "😊", "value": 1, "description": "Great choice made" },
+      { "label": "😐", "value": 0, "description": "Decent decision" },
+      { "label": "😢", "value": -1, "description": "Poor choice" }
     ]
   },
   {
-    "question": "Did you volunteer or give back to the community? 🌍",
+    "question": "Which month improved your work-life balance the most? ⚖️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, often" },
-      { "label": "😐", "value": 0, "description": "A few times" },
-      { "label": "😢", "value": -1, "description": "No, I didn’t volunteer" }
+      { "label": "😊", "value": 1, "description": "Perfect balance achieved" },
+      { "label": "😐", "value": 0, "description": "Better balance" },
+      { "label": "😢", "value": -1, "description": "Poor balance" }
     ]
   },
   {
-    "question": "Did you achieve any educational goals this year? 📚",
+    "question": "In which month did you have your biggest emotional growth? 🌈",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I completed many goals" },
-      { "label": "😐", "value": 0, "description": "I completed a few" },
-      { "label": "😢", "value": -1, "description": "No, I didn’t achieve any" }
+      { "label": "😊", "value": 1, "description": "Significant emotional development" },
+      { "label": "😐", "value": 0, "description": "Some emotional growth" },
+      { "label": "😢", "value": -1, "description": "Emotional challenges" }
     ]
   },
   {
-    "question": "Did you overcome any major challenges this year? 💪",
+    "question": "Which month brought your most meaningful spiritual experience? 🕊️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I conquered big challenges" },
-      { "label": "😐", "value": 0, "description": "I faced some challenges" },
-      { "label": "😢", "value": -1, "description": "No, I didn’t face any" }
+      { "label": "😊", "value": 1, "description": "Deep spiritual connection" },
+      { "label": "😐", "value": 0, "description": "Some spiritual moments" },
+      { "label": "😢", "value": -1, "description": "Spiritual disconnect" }
     ]
   },
   {
-    "question": "Did you experience personal growth this year? 🌟",
+    "question": "In which month did you develop your strongest habit? ⭐",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, a lot" },
-      { "label": "😐", "value": 0, "description": "Somewhat" },
-      { "label": "😢", "value": -1, "description": "No, not much" }
+      { "label": "😊", "value": 1, "description": "Formed great habit" },
+      { "label": "😐", "value": 0, "description": "Started new habit" },
+      { "label": "😢", "value": -1, "description": "Struggled with habits" }
     ]
   },
   {
-    "question": "Did you take any risks or step out of your comfort zone? 🚀",
+    "question": "Which month had your most impactful self-discovery? 🔍",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, many times" },
-      { "label": "😐", "value": 0, "description": "A few times" },
-      { "label": "😢", "value": -1, "description": "No, I stayed in my comfort zone" }
+      { "label": "😊", "value": 1, "description": "Important self-realization" },
+      { "label": "😐", "value": 0, "description": "Some self-awareness" },
+      { "label": "😢", "value": -1, "description": "Lost sense of self" }
     ]
   },
   {
-    "question": "Did you achieve a work/life balance this year? ⚖️",
+    "question": "In which month did you feel most energized and alive? ⚡",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, perfect balance" },
-      { "label": "😐", "value": 0, "description": "Somewhat balanced" },
-      { "label": "😢", "value": -1, "description": "No, I struggled" }
+      { "label": "😊", "value": 1, "description": "Incredible energy and vitality" },
+      { "label": "😐", "value": 0, "description": "Regular energy levels" },
+      { "label": "😢", "value": -1, "description": "Low energy period" }
     ]
   },
   {
-    "question": "Did you enjoy the holidays this year? 🎉",
+    "question": "Which month brought your most meaningful cultural experience? 🎭",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, they were fantastic" },
-      { "label": "😐", "value": 0, "description": "It was fine" },
-      { "label": "😢", "value": -1, "description": "No, I didn’t enjoy them" }
+      { "label": "😊", "value": 1, "description": "Rich cultural connection" },
+      { "label": "😐", "value": 0, "description": "Some cultural exposure" },
+      { "label": "😢", "value": -1, "description": "Missed cultural opportunities" }
     ]
   },
   {
-    "question": "Did you complete a fitness challenge this year? 🏅",
+    "question": "In which month did you have your biggest creative breakthrough? 🎨",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I completed it!" },
-      { "label": "😐", "value": 0, "description": "I tried, but didn't finish" },
-      { "label": "😢", "value": -1, "description": "No, I didn't attempt any" }
+      { "label": "😊", "value": 1, "description": "Major creative success" },
+      { "label": "😐", "value": 0, "description": "Some creative progress" },
+      { "label": "😢", "value": -1, "description": "Creative struggles" }
     ]
   },
   {
-    "question": "Did you develop a new habit this year? 📅",
+    "question": "Which month had your most impactful community involvement? 🌍",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, it was successful!" },
-      { "label": "😐", "value": 0, "description": "I started but struggled" },
-      { "label": "😢", "value": -1, "description": "No, I couldn't develop one" }
+      { "label": "😊", "value": 1, "description": "Strong community impact" },
+      { "label": "😐", "value": 0, "description": "Some community engagement" },
+      { "label": "😢", "value": -1, "description": "Limited community connection" }
     ]
   },
   {
-    "question": "Did you invest in your personal development this year? 📚",
+    "question": "In which month did you experience your greatest personal victory? 🏆",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I took courses" },
-      { "label": "😐", "value": 0, "description": "I did some self-learning" },
-      { "label": "😢", "value": -1, "description": "No, I didn't focus on it" }
+      { "label": "😊", "value": 1, "description": "Significant personal win" },
+      { "label": "😐", "value": 0, "description": "Small achievement" },
+      { "label": "😢", "value": -1, "description": "Setback experienced" }
     ]
   },
   {
-    "question": "Did you prioritize your health and well-being this year? 🏃‍♂️",
+    "question": "Which month brought your most valuable networking opportunity? 🤝",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I was very healthy" },
-      { "label": "😐", "value": 0, "description": "I was somewhat mindful" },
-      { "label": "😢", "value": -1, "description": "No, I neglected my health" }
+      { "label": "😊", "value": 1, "description": "Important connections made" },
+      { "label": "😐", "value": 0, "description": "Some networking" },
+      { "label": "😢", "value": -1, "description": "Missed connections" }
     ]
   },
   {
-    "question": "Did you improve your work/life balance this year? ⚖️",
+    "question": "In which month did you feel most aligned with your values? 🎯",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I found a good balance" },
-      { "label": "😐", "value": 0, "description": "It was a bit better" },
-      { "label": "😢", "value": -1, "description": "No, I struggled with balance" }
+      { "label": "😊", "value": 1, "description": "Strong value alignment" },
+      { "label": "😐", "value": 0, "description": "Moderate alignment" },
+      { "label": "😢", "value": -1, "description": "Value conflict" }
     ]
   },
   {
-    "question": "Did you volunteer or give back to the community this year? 🌍",
+    "question": "Which month had your most significant environmental impact? 🌱",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, regularly" },
-      { "label": "😐", "value": 0, "description": "A few times" },
-      { "label": "😢", "value": -1, "description": "No, I didn't volunteer" }
+      { "label": "😊", "value": 1, "description": "Positive eco-impact" },
+      { "label": "😐", "value": 0, "description": "Some green efforts" },
+      { "label": "😢", "value": -1, "description": "Environmental concerns" }
     ]
   },
   {
-    "question": "Did you start a new project or initiative this year? 📈",
+    "question": "In which month did you have your most meaningful conversation? 💭",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, it was successful" },
-      { "label": "😐", "value": 0, "description": "I started but didn't finish" },
-      { "label": "😢", "value": -1, "description": "No, I didn't start anything new" }
+      { "label": "😊", "value": 1, "description": "Life-changing discussion" },
+      { "label": "😐", "value": 0, "description": "Good conversation" },
+      { "label": "😢", "value": -1, "description": "Communication struggles" }
     ]
   },
   {
-    "question": "Did you focus on self-care and relaxation this year? 🛀",
+    "question": "Which month brought your biggest financial lesson? 💰",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I made time for it" },
-      { "label": "😐", "value": 0, "description": "I tried but not often" },
-      { "label": "😢", "value": -1, "description": "No, I didn't take time for myself" }
+      { "label": "😊", "value": 1, "description": "Valuable money insight" },
+      { "label": "😐", "value": 0, "description": "Basic financial learning" },
+      { "label": "😢", "value": -1, "description": "Financial mistake" }
     ]
   },
   {
-    "question": "Did you set and achieve personal goals this year? 🎯",
+    "question": "In which month did you feel most appreciated by others? 🌟",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I reached my goals" },
-      { "label": "😐", "value": 0, "description": "I achieved some" },
-      { "label": "😢", "value": -1, "description": "No, I didn’t meet my goals" }
+      { "label": "😊", "value": 1, "description": "Deeply valued" },
+      { "label": "😐", "value": 0, "description": "Some appreciation" },
+      { "label": "😢", "value": -1, "description": "Undervalued" }
     ]
   },
   {
-    "question": "Did you nurture your relationships this year? 💕",
+    "question": "Which month had your most important self-care moment? 🧘‍♀️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I strengthened them" },
-      { "label": "😐", "value": 0, "description": "I stayed in touch" },
-      { "label": "😢", "value": -1, "description": "No, I didn't prioritize them" }
+      { "label": "😊", "value": 1, "description": "Excellent self-care" },
+      { "label": "😐", "value": 0, "description": "Basic self-care" },
+      { "label": "😢", "value": -1, "description": "Neglected self-care" }
     ]
   },
   {
-    "question": "Did you maintain a positive mindset this year? 🌈",
+    "question": "In which month did you overcome your biggest fear? 🦁",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I stayed positive" },
-      { "label": "😐", "value": 0, "description": "I had some ups and downs" },
-      { "label": "😢", "value": -1, "description": "No, I struggled with negativity" }
+      { "label": "😊", "value": 1, "description": "Conquered fear" },
+      { "label": "😐", "value": 0, "description": "Faced some fears" },
+      { "label": "😢", "value": -1, "description": "Let fear win" }
     ]
   },
   {
-    "question": "Did you improve your financial habits this year? 💵",
+    "question": "Which month brought your most meaningful digital detox? 📱",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I saved more" },
-      { "label": "😐", "value": 0, "description": "I made some improvements" },
-      { "label": "😢", "value": -1, "description": "No, I didn't improve" }
+      { "label": "😊", "value": 1, "description": "Successful disconnection" },
+      { "label": "😐", "value": 0, "description": "Some digital balance" },
+      { "label": "😢", "value": -1, "description": "Digital overflow" }
     ]
   },
   {
-    "question": "Did you travel abroad this year? ✈️",
+    "question": "In which month did you experience the most personal peace? 🕊️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I went to several places" },
-      { "label": "😐", "value": 0, "description": "I traveled to a few destinations" },
-      { "label": "😢", "value": -1, "description": "No, I didn't travel abroad" }
+      { "label": "😊", "value": 1, "description": "Deep inner peace" },
+      { "label": "😐", "value": 0, "description": "Moderate calm" },
+      { "label": "😢", "value": -1, "description": "Inner turmoil" }
     ]
   },
   {
-    "question": "Did you take care of your mental health this year? 🧘‍♂️",
+    "question": "Which month had your most significant lifestyle change? 🔄",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I focused on it" },
-      { "label": "😐", "value": 0, "description": "I tried but not consistently" },
-      { "label": "😢", "value": -1, "description": "No, I neglected it" }
+      { "label": "😊", "value": 1, "description": "Positive lifestyle shift" },
+      { "label": "😐", "value": 0, "description": "Small changes" },
+      { "label": "😢", "value": -1, "description": "Negative changes" }
     ]
   },
   {
-    "question": "Did you spend time in nature this year? 🌳",
+    "question": "In which month did you show the most kindness to others? 💝",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, regularly" },
-      { "label": "😐", "value": 0, "description": "Occasionally" },
-      { "label": "😢", "value": -1, "description": "No, I stayed indoors" }
+      { "label": "😊", "value": 1, "description": "Significant impact on others" },
+      { "label": "😐", "value": 0, "description": "Regular kindness" },
+      { "label": "😢", "value": -1, "description": "Missed opportunities" }
     ]
   },
   {
-    "question": "Did you achieve any creative goals this year? 🎨",
+    "question": "Which month brought your most meaningful morning routine? 🌅",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I created many things" },
-      { "label": "😐", "value": 0, "description": "I completed a few projects" },
-      { "label": "😢", "value": -1, "description": "No, I didn't work on anything creative" }
+      { "label": "😊", "value": 1, "description": "Perfect morning rhythm" },
+      { "label": "😐", "value": 0, "description": "Decent routine" },
+      { "label": "😢", "value": -1, "description": "Chaotic mornings" }
     ]
   },
   {
-    "question": "Did you maintain a healthy diet this year? 🥗",
+    "question": "In which month did you feel most connected to nature? 🌿",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I ate healthy consistently" },
-      { "label": "😐", "value": 0, "description": "I tried to eat healthier" },
-      { "label": "😢", "value": -1, "description": "No, my diet wasn't healthy" }
+      { "label": "😊", "value": 1, "description": "Strong nature connection" },
+      { "label": "😐", "value": 0, "description": "Some outdoor time" },
+      { "label": "😢", "value": -1, "description": "Nature disconnect" }
     ]
   },
   {
-    "question": "Did you spend more time on self-reflection this year? 🔍",
+    "question": "Which month had your most meaningful act of forgiveness? 🕊️",
     "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, often" },
-      { "label": "😐", "value": 0, "description": "Occasionally" },
-      { "label": "😢", "value": -1, "description": "No, I didn't reflect much" }
-    ]
-  },
-  {
-    "question": "Did you take any leadership opportunities this year? 🏅",
-    "emoji_options": [
-      { "label": "😊", "value": 1, "description": "Yes, I led several projects" },
-      { "label": "😐", "value": 0, "description": "I led a few initiatives" },
-      { "label": "😢", "value": -1, "description": "No, I didn't take any leadership roles" }
+      { "label": "😊", "value": 1, "description": "Deep healing" },
+      { "label": "😐", "value": 0, "description": "Some reconciliation" },
+      { "label": "😢", "value": -1, "description": "Unresolved conflict" }
     ]
   }
 ]
